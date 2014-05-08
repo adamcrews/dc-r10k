@@ -18,3 +18,6 @@ mod 'minecraft',
   :ref => 'pug-demo'
 
 
+mod 'puppetlabs/java'
+mod 'branan/s3file'
+
