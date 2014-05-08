@@ -1,6 +1,6 @@
 forge 'http://forge.puppetlabs.com'
 
-mod 'puppetlabs/ntp', :latest
+mod 'puppetlabs/ntp', '3.0.2'
 mod 'zack/r10k'
 mod 'gentoo/portage'
 mod 'puppetlabs/concat'
@@ -12,5 +12,9 @@ mod 'puppetlabs/pe_gem'
 mod 'puppetlabs/ruby'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/vcsrepo'
+
+mod 'minecraft',
+  :git => 'https://github.com/adamcrews/puppet-module-minecraft.git'
+  :ref => 'pug_demo'
 
 
