@@ -13,4 +13,11 @@ mod 'puppetlabs/ruby'
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/vcsrepo'
 
+mod 'minecraft',
+  :git => 'https://github.com/adamcrews/puppet-module-minecraft.git',
+  :ref => 'pug-demo'
+
+
+mod 'puppetlabs/java'
+mod 'branan/s3file'
 
