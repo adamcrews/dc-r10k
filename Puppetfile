@@ -14,7 +14,7 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/vcsrepo'
 
 mod 'minecraft',
-  :git => 'https://github.com/adamcrews/puppet-module-minecraft.git'
+  :git => 'https://github.com/adamcrews/puppet-module-minecraft.git',
   :ref => 'pug_demo'
 
 
